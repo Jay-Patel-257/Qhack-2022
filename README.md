@@ -11,6 +11,7 @@ This project aim towards comparing the results of all three algorithms and how t
 > <b>Note:</b> Current version of the project contains the implementation of the second algorithm from the above mentioned algorithms. We plan to implement the rest in the final submission.
 
 ## Requirements
+Before you start with [SSVQE.ipynb]() make sure to install the below requirements.
 `!pip install pennylane`<br>
 `!pip install pennylane-qchem`
 
