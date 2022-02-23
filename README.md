@@ -1,17 +1,17 @@
 # Generalized Sub Space Search VQE for Kth excited state energy
 
-The goal of the project is to explore the <b><i>Sub Space Search VQE Algorithm</i></b> to calculate the Kth excited state energy of a given hamiltonian. There are three variants of SSVQE shown below:
+The goal of the project is to explore the ***Sub Space Search VQE Algorithm*** to calculate the Kth excited state energy of a given hamiltonian. There are three variants of SSVQE shown below:
 
-* <b>Sub Space Search VQE:</b> The algorithm uses two step optimization process to calculate the Kth excited state energy.
-* <b>Weighted Sub Space Search VQE to find energy of Kth excited state:</b> The algorithm uses one step optimization process to calculate the Kth excites state energy. 
-* <b>Weighted Sub Space Search VQE to find energies upto K excited states:</b> The algorithm calculates all the excited state energies upto the Kth state in a single optimization process. The only drawback is the runtime due to the complexity of the cost function.
+* **Sub Space Search VQE:** The algorithm uses two step optimization process to calculate the Kth excited state energy.
+* **Weighted Sub Space Search VQE to find energy of Kth excited state:** The algorithm uses one step optimization process to calculate the Kth excites state energy. 
+* **Weighted Sub Space Search VQE to find energies upto K excited states:** The algorithm calculates all the excited state energies upto the Kth state in a single optimization process. The only drawback is the runtime due to the complexity of the cost function.
 
 This project aim towards comparing the results of all three algorithms and how they perform on noiseless and noisy systems.
 
-> <b>Note:</b> Current version of the project contains the implementation of the second algorithm from the above mentioned algorithms. We plan to implement the rest in the final submission.
+> **Note:** Current version of the project contains the implementation of the **Second** and **Third** algorithm from the above mentioned algorithms. We plan to implement the first in the final submission.
 
 ## Requirements
-Before you start with [SSVQE.ipynb]() make sure to install the below requirements.
+Before you start with [SSVQE.ipynb](https://github.com/Jay-Patel-257/Qhack-2022/blob/main/SSVQE.ipynb) make sure to install the below requirements.<br>
 `!pip install pennylane`<br>
 `!pip install pennylane-qchem`
 
