@@ -1,4 +1,4 @@
-# Generelized Sub Space Search VQE for Kth excited state energy
+# Generalized Sub Space Search VQE for Kth excited state energy
 
 The goal of the project is to explore the <b><i>Sub Space Search VQE Algorithm</i></b> to calculate the Kth excited state energy of a given hamiltonian. There are three variants of SSVQE shown below:
 
