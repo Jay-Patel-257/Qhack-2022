@@ -8,7 +8,7 @@ The goal of the project is to explore the ***Sub Space Search VQE Algorithm*** t
 
 This project aim towards comparing the results of all three algorithms and how they perform on noiseless and noisy systems.
 
-> **Note:** Current version of the project contains the implementation of the **Second** and **Third** algorithm from the above mentioned algorithms. We plan to implement the first in the final submission.
+> **Note:** Current version of the project contains the implementation of the **Second** and **Third** algorithm from the above mentioned algorithms. We plan to implement the First before the final submission.
 
 ## Requirements
 Before you start with [SSVQE.ipynb](https://github.com/Jay-Patel-257/Qhack-2022/blob/main/SSVQE.ipynb) make sure to install the below requirements.<br>
