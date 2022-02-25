@@ -30,4 +30,4 @@ Before you start with [SSVQE.ipynb](https://github.com/Jay-Patel-257/Qhack-2022/
 
 ## References
 * https://arxiv.org/pdf/1810.09434.pdf
-* https://pubchem.ncbi.nlm.nih.gov/1[
+* https://pubchem.ncbi.nlm.nih.gov/1
