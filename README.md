@@ -12,17 +12,11 @@ We simulated three different Hamiltonians of molecules like H2, LiH and CH3F usi
 
 ## Results of Simulation:
 ### H2:
-![H2_1](./Img/H2_1.png)
-![H2_2](./Img/H2_2.png)
-![H2_3](./Img/H2_3.png)
+![H2_1](./Img/H2_1.png)![H2_2](./Img/H2_2.png)![H2_3](./Img/H2_3.png)
 ### LiH:
-![LiH_1](./Img/LiH_1.png)
-![LiH_2](./Img/LiH_2.png)
-![LiH_2](./Img/LiH_3.png)
+![LiH_1](./Img/LiH_1.png)![LiH_2](./Img/LiH_2.png)![LiH_2](./Img/LiH_3.png)
 ### CH3F:
-![CH3F_1](./Img/CH3F_1.png)
-![CH3F_2](./Img/CH3F_2.png)
-![CH3F_2](./Img/CH3F_3.png)
+![CH3F_1](./Img/CH3F_1.png)![CH3F_2](./Img/CH3F_2.png)![CH3F_2](./Img/CH3F_3.png)
 
 ## Requirements
 Before you start with [SSVQE.ipynb](https://github.com/Jay-Patel-257/Qhack-2022/blob/main/SSVQE.ipynb) make sure to install the below requirements.<br>
