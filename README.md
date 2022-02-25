@@ -24,7 +24,7 @@ Before you start with [SSVQE.ipynb](https://github.com/Jay-Patel-257/Qhack-2022/
 `!pip install pennylane`<br>
 `!pip install pennylane-qchem`
 
-## Prepared by:
+## Prepared by
 **Jay Patel**<br>
 **Siddharth Patel**<br>
 **Amit Hirpara**
