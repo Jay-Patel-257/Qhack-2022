@@ -1,19 +1,39 @@
-# Generalized Sub Space Search VQE for Kth excited state energy
+# Weighted Subspace Search VQE to find Kth Excited state energies
 
-The goal of the project is to explore the ***Sub Space Search VQE Algorithm*** to calculate the Kth excited state energy of a given hamiltonian. There are three variants of SSVQE shown below:
+Generally, The variational quantum eigensolver (VQE) is used for finding the ground state energy for a given hamiltonian. To find the kth excited state energy of for the hamiltonian we would need to run the VQE optimization process for atleast k+1 time. Not to mention each time we need to calculate the hamiltonian again taking into account the state of the previous iteration. Even after that the accuracy decreases as value of k increases.
 
-* **Sub Space Search VQE:** The algorithm uses two step optimization process to calculate the Kth excited state energy.
-* **Weighted Sub Space Search VQE to find energy of Kth excited state:** The algorithm uses one step optimization process to calculate the Kth excites state energy. 
-* **Weighted Sub Space Search VQE to find energies upto K excited states:** The algorithm calculates all the excited state energies upto the Kth state in a single optimization process. The only drawback is the runtime due to the complexity of the cost function.
+This is where the idea of ***Subspace Search VQE (SSVQE)*** comes in. The algorithm is used to find kth excited state energy of a hamiltonian in just two subsequent optimization processes. The original research about the development of SSVQE is given in this [paper](https://arxiv.org/pdf/1810.09434.pdf). But, can we do better? Yes, the research shows that using the weights as hyperparameters we can find the kth excited state energy in just single optimization process. This is a more generalised version of SSVQE namely, Weighted SSVQE and it will be the center of our focus in this project. There are two variants of this algorithm:
 
-This project aim towards comparing the results of all three algorithms and how they perform on noiseless and noisy systems.
+1) Weighted SSVQE to find kth excited state energy.
 
-> **Note:** Current version of the project contains the implementation of the **Second** and **Third** algorithm from the above mentioned algorithms. We plan to implement the First before the final submission.
+2) Weighted SSVQE to find all energies upto kth excited state.
+
+We simulated three different Hamiltonians of molecules like H2, LiH and CH3F using three algorithms that we implemented in this project. Yes, the third one is surprise for you so for more detalied info go check out [SSVQE.ipynb](./SSVQE.ipynb)
+
+## Results of Simulation:
+### H2:
+![H2_1](./Img/H2_1.png)
+![H2_2](./Img/H2_2.png)
+![H2_3](./Img/H2_3.png)
+### LiH:
+![LiH_1](./Img/LiH_1.png)
+![LiH_2](./Img/LiH_2.png)
+![LiH_2](./Img/LiH_3.png)
+### CH3F
+![CH3F_1](./Img/CH3F_1.png)
+![CH3F_2](./Img/CH3F_2.png)
+![CH3F_2](./Img/CH3F_3.png)
 
 ## Requirements
 Before you start with [SSVQE.ipynb](https://github.com/Jay-Patel-257/Qhack-2022/blob/main/SSVQE.ipynb) make sure to install the below requirements.<br>
 `!pip install pennylane`<br>
 `!pip install pennylane-qchem`
 
+## Prepared by:
+**Jay Patel**<br>
+**Siddharth Patel**<br>
+**Amit Hirpara**
+
 ## References
 * https://arxiv.org/pdf/1810.09434.pdf
+* https://pubchem.ncbi.nlm.nih.gov/1[
