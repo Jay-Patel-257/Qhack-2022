@@ -19,7 +19,7 @@ We simulated three different Hamiltonians of molecules like H2, LiH and CH3F usi
 ![LiH_1](./Img/LiH_1.png)
 ![LiH_2](./Img/LiH_2.png)
 ![LiH_2](./Img/LiH_3.png)
-### CH3F
+### CH3F:
 ![CH3F_1](./Img/CH3F_1.png)
 ![CH3F_2](./Img/CH3F_2.png)
 ![CH3F_2](./Img/CH3F_3.png)
