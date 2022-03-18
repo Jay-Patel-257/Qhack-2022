@@ -28,9 +28,9 @@ Before you start with [SSVQE.ipynb](https://github.com/Jay-Patel-257/Qhack-2022/
 [Link](https://docs.google.com/presentation/d/1P1tNo31xcmKQOwSVYmKvNdP2JYbssHYmoEam_dHvJ9U/edit?usp=sharing)
 
 ## Prepared by
-**Jay Patel (@Jay-Patel-257)**<br>
-**Siddharth Patel (@Siddharth1India)**<br>
-**Amit Hirpara (@HirparaAmit)**
+**Jay Patel ([@Jay-Patel-257](https://github.com/Jay-Patel-257))**<br>
+**Siddharth Patel ([@Siddharth1India](https://github.com/Siddharth1India))**<br>
+**Amit Hirpara ([@HirparaAmit](https://github.com/HirparaAmit))**
 
 ## References
 * https://arxiv.org/pdf/1810.09434.pdf
