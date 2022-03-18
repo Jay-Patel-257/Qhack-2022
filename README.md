@@ -28,11 +28,11 @@ Before you start with [SSVQE.ipynb](https://github.com/Jay-Patel-257/Qhack-2022/
 [Link](https://docs.google.com/presentation/d/1P1tNo31xcmKQOwSVYmKvNdP2JYbssHYmoEam_dHvJ9U/edit?usp=sharing)
 
 ## Prepared by
-**Jay Patel**<br>
-**Siddharth Patel**<br>
-**Amit Hirpara**
+**Jay Patel (@Jay-Patel-257)**<br>
+**Siddharth Patel (@Siddharth1India)**<br>
+**Amit Hirpara (@HirparaAmit)**
 
 ## References
 * https://arxiv.org/pdf/1810.09434.pdf
 * https://pubchem.ncbi.nlm.nih.gov/1
-> [SSVQE.ipynb](./SSVQE.ipynb) has been approved for pennylane community tutorials and will soon be published.
+> [SSVQE.ipynb](./SSVQE.ipynb) has been approved for pennylane community tutorials and can be found at [Pennylane Community Tutorials](https://pennylane.ai/qml/demos_community.html).
